@@ -1,3 +1,12 @@
+#TODO
+- country name in the country data 
+- handle invalid search data 
+- stats of top [infected - death ]countries 
+- home page [advices to save yourself and your loved ones you care for]  
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
