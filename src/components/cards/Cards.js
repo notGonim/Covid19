@@ -43,7 +43,6 @@ export const Cards = () => {
               />
             </Typography>
             <Typography color="textSecondary">
-              {" "}
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography varaiant="body2">
@@ -69,7 +68,7 @@ export const Cards = () => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography varaiant="body2">
-              Number of active cases of COVID 19
+              Number of Death cases of COVID 19
             </Typography>
           </CardContent>
         </Grid>
@@ -79,7 +78,6 @@ export const Cards = () => {
               Infected
             </Typography>
             <Typography varaiant="h5">
-              {" "}
               <CountUp
                 start={0}
                 end={confirmed.value}

@@ -6,9 +6,9 @@ const intialState = {
   isLoading: true,
 };
 
-const dataDetailsReducer = (state = intialState, action) => {
+const SearchDataReducer = (state = intialState, action) => {
   switch (action.type) {
-    case "FETCHING_DATA":
+    case "SEARCH_DATA":
       return {
         ...state,
         confirmed: action.payLoad.confirmedCases,
@@ -17,7 +17,6 @@ const dataDetailsReducer = (state = intialState, action) => {
         lastUpdate: action.payLoad.lastUpdateCases,
         isLoading: false,
       };
-
     case "LOADING":
       return { ...state, isLoading: true };
     default:
@@ -25,4 +24,4 @@ const dataDetailsReducer = (state = intialState, action) => {
   }
 };
 
-export default dataDetailsReducer;
+export default SearchDataReducer;
